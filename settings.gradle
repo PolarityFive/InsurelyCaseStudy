@@ -1,0 +1,4 @@
+rootProject.name = 'InsurelyCaseStudy'
+include 'src:test:src'
+findProject(':src:test:src')?.name = 'src'
+
